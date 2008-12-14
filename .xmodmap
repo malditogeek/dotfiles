@@ -1,0 +1,5 @@
+! Switch keys ( lt/gt <-> circle/accent )
+keycode 94 = 0x00aa 0x00ba 0x005c 0x005c 0x005c 0x005c
+keycode 49 = 0x003c 0x003e
+! Right Apple/Cmd as ALT_GR
+keycode 116 = ISO_Level3_Shift
