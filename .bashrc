@@ -17,6 +17,9 @@ export PATH=$PATH:$HOME/bin
 # change the default editor
 export EDITOR=vim
 
+# colored grep
+export GREP_OPTIONS='--color=auto'
+
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
@@ -76,7 +79,6 @@ fi
 
 # Some functions
 tag() { alias $1="cd $PWD"; echo "alias $1=\"cd $PWD\"" >> ~/.bash_aliases; }
-search() { grep -ir $1 .|grep -v svn; }
 
 # FamilyGuy fortune
 fortune ~/.fortune/fortune-mod-familyguy-0.2/familyguy
